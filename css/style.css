@@ -166,7 +166,7 @@ h1,h2,h3,h4,h5,h6 {
 .dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover {
     color:#fff;
     text-decoration:none;
-    background-color:#f04f23;
+    background-color:#A82223;
     outline:0
 }
 .navbar-default {
@@ -215,10 +215,10 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 .logo-dec {
-    color:#f04f23
+    color:#A82223
 }
 .logo {
-    width:225px
+    width:325px
 }
 .top-nav-collapse .logo {
     width:157px
@@ -298,12 +298,12 @@ h1,h2,h3,h4,h5,h6 {
     transition:color 0.2s ease-out
 }
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:focus,.navbar-default .navbar-nav > .active > a:hover {
-    color:#f04f23;
+    color:#A82223;
     background-color:transparent
 }
 .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:hover {
     background-color:transparent;
-    color:#f04f23
+    color:#A82223
 }
 .banner-info {
     padding-top:140px;
@@ -345,15 +345,15 @@ h2.bnr-sub-title {
     transition:all 0.3s
 }
 .btn-download {
-    background-color:#f04f23
+    background-color:#A82223
 }
 .btn-more,.btn-more:focus {
     margin-left:15px;
-    border:1px solid #f04f23;
-    color:#f04f23
+    border:1px solid #A82223;
+    color:#A82223
 }
 .btn-more:hover {
-    background:#f04f23;
+    background:#A82223;
     color:#fff
 }
 .overlay-detail a i {
@@ -411,7 +411,7 @@ hr {
     border-top:0px;
     height:3px;
     width:40px;
-    background-color:#f04f23
+    background-color:#A82223
 }
 .wrap-item h3 {
     font-size:24px;
@@ -501,7 +501,7 @@ ul.service-list li i {
     padding:10px 0px
 }
 .service-item a {
-    color:#f04f23
+    color:#A82223
 }
 .mr-btn-15 {
     margin-bottom:15px
@@ -556,7 +556,7 @@ ul.service-list li i {
     width:100%;
     height:100%;
     padding:59px 30px;
-    background-color:#f04f23;
+    background-color:#A82223;
     backface-visibility:hidden;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
@@ -696,9 +696,9 @@ ul.service-list li i {
 .btn-submit,.btn-submit:hover,.btn-submit:focus {
     background-color:transparent;
     border-radius:60px;
-    color:#f04f23;
+    color:#A82223;
     font-weight:400;
-    border:1px solid #f04f23;
+    border:1px solid #A82223;
     font-size:18px;
     padding:6px 20px;
     outline:0 !important;
@@ -709,13 +709,13 @@ ul.service-list li i {
 }
 .form-control {
     background-color:transparent;
-    border-radius:0px;
+    border-radius:5px;
     color:#fff !important;
-    border-color:#f04f23;
+    border-color:#A82223;
     height:50px
 }
 .form-control:focus {
-    border-color:#f04f23;
+    border-color:#A82223;
     outline:0;
     -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.6);
     box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.6)
@@ -755,7 +755,7 @@ ul.service-list li i {
     margin-bottom:25px
 }
 .loction-info p i {
-    color:#f04f23;
+    color:#A82223;
     margin-top:-5px
 }
 #footer {
@@ -768,7 +768,7 @@ ul.service-list li i {
     width:42px;
     height:42px;
     color:#ffffff;
-    background:#f04f23;
+    background:#A82223;
     font-size:14px;
     line-height:42px;
     text-align:center;
@@ -780,7 +780,7 @@ ul.service-list li i {
     background-color:#fff
 }
 #footer a {
-    color:#f04f23;
+    color:#A82223;
     font-weight:400
 }
 .cta {
@@ -896,4 +896,9 @@ ul.service-list li i {
 }
 #links .btn {
     margin-top:00px
+}
+
+
+.beneficios{
+    border-radius: 50%;
 }
