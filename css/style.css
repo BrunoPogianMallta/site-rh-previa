@@ -815,6 +815,7 @@ ul.service-list li i {
     .padding-right-zero {
         padding-right:15px !important
     }
+    
 }
 @media (min-width: 451px) and (max-width: 767px) {
     .service-item,.blog-sec,.wrap-item,.loction-info {
@@ -898,7 +899,41 @@ ul.service-list li i {
     margin-top:00px
 }
 
+.btn:hover {
+    font-weight:400;
+    font-size: 1.4rem;
+    
+}
 
 .beneficios{
     border-radius: 50%;
 }
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .whatsapp-icon img {
+    width: 60px;
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px); /* Posiciona a 10px acima do ícone */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo da mensagem */
+    color: #fff; /* Cor do texto da mensagem */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0; /* Inicia oculta */
+    transition: opacity 0.3s ease;
+  }
+  
+  .whatsapp-icon:hover .tooltip {
+    opacity: 1; /* Torna a mensagem visível ao passar o mouse */
+  }
