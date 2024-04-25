@@ -214,11 +214,29 @@ h1,h2,h3,h4,h5,h6 {
         padding:5px 0 0 0
     }
 }
+
+/* .logo {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo {
+    border: 2px solid #333;
+    border-radius: 4px;
+  } */
+
+  .logo {
+    filter: saturate(150%) brightness(120%) contrast(150%);
+  }
+
+  .logo {
+    color: #ff0000; /* Vermelho */
+  }
+
 .logo-dec {
     color:#A82223
 }
 .logo {
-    width:325px
+    width:345px
 }
 .top-nav-collapse .logo {
     width:157px
