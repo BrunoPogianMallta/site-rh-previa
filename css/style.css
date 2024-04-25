@@ -955,3 +955,7 @@ ul.service-list li i {
   .whatsapp-icon:hover .tooltip {
     opacity: 1; /* Torna a mensagem visível ao passar o mouse */
   }
+
+  .fa {
+    color: red;
+  }
