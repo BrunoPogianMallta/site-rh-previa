@@ -172,7 +172,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default {
     background-color:transparent;
     border:0px;
-    padding:20px 0px;
+    padding:25px 0px;
     transition:all 0.3s
 }
 @media (min-width: 992px) {
@@ -211,7 +211,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 @media (max-width: 767px) {
     .top-nav-collapse {
-        padding:5px 0 0 0
+        padding:35px 0 0 0
     }
 }
 
@@ -231,11 +231,17 @@ h1,h2,h3,h4,h5,h6 {
     width:345px
 }
 .top-nav-collapse .logo {
-    width:117px
+    width:340px;
+    
 }
+
+
+
 @media (max-width: 767px) {
     .logo {
-        width:340px
+        width:340px;
+        position: fixed;
+        top: 0;
     }
 }
 .navbar-default .navbar-brand {
